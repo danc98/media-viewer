@@ -98,4 +98,6 @@ rando_button = tk.Button(window, width=16, height=3,
 rando_button.pack()
 rando_button.place(bordermode=tk.OUTSIDE, x=360, y=620)
 
-window.mainloop()
+# Only open mediaViewer if called directly.
+if __name__ == '__main__':
+    window.mainloop()

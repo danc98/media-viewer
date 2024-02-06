@@ -4,7 +4,7 @@ Originally designed some years ago for use with my personal movie/TV show librar
 
 ## SETUP
 1. Written in Python 3.10.6, although basic enough that early versions may work fine.
-2. Run pip install -r requirements.txt to install all modules.
+2. Run "python -m pip install -r requirements.txt" to install all modules.
 3. This program requires two folders, one with your media (movies, TV shows, etc.) and one with cover images.
 4. Make sure the filename of each cover reflects the name of the associated media, or else the play button may not work.
 
